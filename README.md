@@ -14,9 +14,9 @@ class UserInfo : DataProvider{
 
 //启动时注册数据:
 
-registerDataProvider(UserInfo.Create())         //用户信息
-registerDataProvider(SetttingInfo.Create())     //环境信息
-registerDataProvider(PhotoLibary.Create())      //照片和相册数据信息
+DataStore.instance.registerDataProvider(UserInfo.Create())         //用户信息
+DataStore.instance.registerDataProvider(SetttingInfo.Create())     //环境信息
+DataStore.instance.registerDataProvider(PhotoLibary.Create())      //照片和相册数据信息
 
 
 //需要时在任何位置取数据:
