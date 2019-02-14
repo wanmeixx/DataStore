@@ -1,5 +1,5 @@
 # DataStore
-## swfit DataStore 
+## swfit DataStore 可以在项目中任何位置方便的使用任何数据,且代码直接不会出现混乱的互相引用
 
 ```Swift
 ///用户信息
